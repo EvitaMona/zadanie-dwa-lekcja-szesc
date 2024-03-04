@@ -1,0 +1,13 @@
+.items {
+  padding: 0px;
+}
+
+.item {
+  font-size: 24px;
+  color: aqua;
+}
+
+.item:nth-last-of-type(even) {
+  color: chartreuse;
+  text-align: center;
+}
